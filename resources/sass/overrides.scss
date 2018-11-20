@@ -1,0 +1,26 @@
+body,
+html {
+    background-color: $body-background;
+    height: 100%;
+}
+
+a {
+    color: rgb(0, 110, 110);
+}
+
+a.navbar-item,
+a.navbar-item.is-tab,
+a.navbar-link {
+    border-bottom: 1px solid transparent;
+}
+
+a.navbar-item:hover,
+a.navbar-item.is-tab:hover,
+a.navbar-link:hover {
+    border-bottom: 1px solid cyan;
+    color: rgb(0, 130, 130);
+}
+
+.is-muted {
+    color: rgb(136, 136, 136);
+}
